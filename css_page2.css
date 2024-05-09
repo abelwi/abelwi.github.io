@@ -22,23 +22,39 @@ h3 {
     font-size: 24px;
 }
 
-h4 {
+h4.line1 {
     background-image: url(small_tag.svg);
     background-repeat:no-repeat;
     background-size: 50px;
-    padding: 80px;
+    padding: 40px;
     background-position-x: 22%;
-    background-position-y: 38%;
+    background-position-y: 20%;
 }
 
 a {
     color: black;
-    font-size: 18px;
-    margin: 300px;
+    font-size: 22px;
+    margin: 330px;
 }
 
 a:hover {
     color: rgb(119, 115, 115);
     background-color: transparent;
     text-decoration: underline;
+}
+
+h4.line2 {
+    background-image: url(icon_tag.svg);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    padding: 18px;
+    font-size: 22px;
+    padding-left: 370px;
+    padding-top: 35px;
+    background-position-x: 22%;
+}
+
+p {
+    padding-left: 80px;
+    font-size: 15px;
 }
