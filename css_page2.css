@@ -1,0 +1,44 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h3 {
+    background-color: #C8C8C8;
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 24px;
+    box-shadow: 5px 5px 5px #353434;
+    background-image: url(header.svg);
+    background-repeat: no-repeat;
+    margin-left: 190px;
+    margin-right: 180px;
+    background-position-x: 5%;
+    background-size: 90px;
+    font-size: 24px;
+}
+
+p {
+    background-image: url(small_tag.svg);
+    background-repeat:no-repeat;
+    background-size: 50px;
+    padding: 80px;
+    background-position-x: 22%;
+    background-position-y: 38%;
+}
+
+a {
+    color: black;
+    font-size: 18px;
+    margin: 300px;
+}
+
+a:hover {
+    color: rgb(119, 115, 115);
+    background-color: transparent;
+    text-decoration: underline;
+}

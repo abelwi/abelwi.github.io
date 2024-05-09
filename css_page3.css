@@ -1,0 +1,35 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h3 {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+p {
+    border: 1px solid black;
+    padding-top: 10px;
+    width: 1200px;
+    height: 400px;
+    text-align: justify;
+    font-size: 14px;
+    margin-top: 0%;
+    margin-left: 100px;
+    padding-bottom: 200px;
+    background-image: url(header.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 90px;
+    background-position-x: 9%;
+    background-position-y: 50%;
+}  
+
+p.big {
+    line-height: 22px;
+}
