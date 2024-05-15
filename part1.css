@@ -1,0 +1,26 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+    border: 1px solid black;
+    background-image: url(header.svg);
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position-y: center;
+}
+
+p.text1 {
+    line-height: 25px;
+}
