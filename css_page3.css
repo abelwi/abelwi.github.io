@@ -1,27 +1,41 @@
 h3 {
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
     font-size: 30px;
 }
+
 p {
     border: 1px solid black;
-    padding-top: 10px;
-    width: 1200px;
-    height: 400px;
+    padding: 5% 5% 5% 10%;
     text-align: justify;
-    font-size: 14px;
-    margin-top: 0%;
-    margin-left: 100px;
-    padding-bottom: 200px;
     background-image: url(header.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-size: 90px;
-    background-position-x: 9%;
-    background-position-y: 50%;
+    background-position-x: 2%;
+    background-position-y: 30%;
 }  
 
 p.big {
     line-height: 22px;
 }
+
+@media (min-width: 320px) {
+    h3 {
+        font-size: 24px;
+    }
+    p {
+        background-size: 35px;
+    }
+}
+
+@media (min-width: 900px) {
+    h3 {
+        font-size: 30px;
+    }
+    p{
+        background-size: 90px;
+    }
+}
+

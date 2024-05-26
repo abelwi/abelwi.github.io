@@ -1,53 +1,89 @@
 h3 {
     background-color: #C8C8C8;
-    padding: 40px;
-    margin: 20px;
+    padding: 2% 20%;
     text-align: center;
     border-radius: 24px;
     box-shadow: 5px 5px 5px #353434;
     background-image: url(header.svg);
     background-repeat: no-repeat;
-    margin-left: 190px;
-    margin-right: 180px;
-    background-position-x: 5%;
-    background-size: 90px;
-    font-size: 24px;
+    background-position-x: 2%;
+    background-position-y: 4%;
+    background-size: 75px;
+    
 }
 
 h4.line1 {
     background-image: url(small_tag.svg);
     background-repeat:no-repeat;
     background-size: 50px;
-    padding: 40px;
-    background-position-x: 22%;
-    background-position-y: 20%;
-}
-
-a {
-    color: black;
-    font-size: 22px;
-    margin: 330px;
-}
-
-a:hover {
-    color: rgb(119, 115, 115);
-    background-color: transparent;
-    text-decoration: underline;
+    background-position: left;
+    padding: 3% 20%;
+    background-position-x: 14%;
+    background-position-y: 28%;
 }
 
 h4.line2 {
     background-image: url(small_tag.svg);
     background-repeat: no-repeat;
     background-size: 50px;
-    padding: 18px;
-    font-size: 22px;
-    padding-left: 370px;
-    padding-top: 35px;
-    background-position-x: 22%;
+    padding: 1% 20%;
+    background-position-x: 14%;
+    background-position-y: 100%;
 }
 
 p {
-    padding-left: 50px;
-    font-size: 15px;
-    line-height: 50px;
+    padding-left: 25%;
+    line-height: 30px;
+}
+@media (min-width: 320px) {
+    h3 {
+        padding: 1% 20% 1%;
+        background-size: 55px;
+    }
+    h4.line1 {
+        background-size: 30px;
+        background-position-x: 5%;
+        background-position-y: 28%;
+    }
+    h4.line2 {
+        background-size: 30px;
+        background-position-x: 5%;
+        background-position-y: 100%;
+        padding: 2% 20%;
+    }
+    p {
+        padding-left: 15%;
+    }
+}
+
+ @media (min-width: 900px) {
+    h3 {
+        padding: 2% 20%;
+        background-size: 75px;
+    }
+    h4.line1 {
+        background-size: 50px;
+        background-position-x: 14%;
+        background-position-y: 28%;
+    }
+    h4.line2 {
+        background-size: 50px;
+        background-position-x: 14%;
+        background-position-y: 100%;
+        padding: 1% 20%;
+    }
+    p {
+        padding-left: 25%;
+    }
+ }
+
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(119, 115, 115);
+    background-color: transparent;
+    text-decoration: underline;
 }

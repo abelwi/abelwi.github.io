@@ -1,31 +1,26 @@
 .p1 {
-    font-size: x-large;
-    padding-top: 95px;
+    padding: 7% 12%;
     background-image: url(header.svg);
     background-repeat: no-repeat;
-    background-position-x: 2%;
-    background-position-y: 75%;
-    background-size: 100px;
-    
-
+    background-position-x: 1%;
+    background-position-y: 45%;
+    background-size: 7%;
 }
 
 .p2 {
-    font-size: x-large;
-    padding-top: 15px;
+    padding: 5% 12%;
     background-image: url(header.svg);
     background-repeat: no-repeat;
-    background-position-x: 2%;
-    background-position-y: 90%;
-    background-size: 100px;
+    background-position-x: 1%;
+    background-position-y: 45%;
+    background-size: 7%;
 }
 
 .button {
-    margin: 50px 400px;
+    margin: 1% 35%;
     background-color: #8a8989;
     border: none;
-    padding: 30px 230px;
-    font-size: 18px;
+    padding: 25px 70px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -34,6 +29,30 @@
     color: #DADADA;
     box-shadow: 5px 5px 8px black;
 }
+
+@media (min-width: 320px) {
+    .p1 {
+        padding: 15% 12%;
+    }
+    .p2 {
+        padding: 16% 12%;
+    }
+    .button {
+        margin: 1% 12%;
+    }
+ }
+
+ @media (min-width: 900px) {
+    .p1 {
+        padding: 7% 12%;
+    }
+    .p2 {
+        padding: 5% 12%;
+    }
+    .button {
+        margin: 1% 35% ;
+    }
+ }
 
 
 .button:hover {

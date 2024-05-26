@@ -4,4 +4,17 @@ body {
     background-attachment: fixed;
     background-size: cover;
     font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 22px;
 }
+
+@media (min-width: 320px) {
+    body {
+        font-size: 14px;
+    }
+ }
+
+ @media (min-width: 900px) {
+    body {
+        font-size: 22px;
+    }
+ }
